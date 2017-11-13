@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA597A9B1FA7595500700A77 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA597A9A1FA7595500700A77 /* DemoURL.swift */; };
+		FA597A9D1FA767EB00700A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA597A9C1FA767EB00700A77 /* Main.storyboard */; };
+		FA6644C41FA87FDE001F5B9D /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6644C31FA87FDE001F5B9D /* CassiniViewController.swift */; };
 		FAA188BD1FA749FE00C6FF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA188BC1FA749FE00C6FF82 /* AppDelegate.swift */; };
-		FAA188BF1FA749FE00C6FF82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA188BE1FA749FE00C6FF82 /* ViewController.swift */; };
-		FAA188C21FA749FE00C6FF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA188C01FA749FE00C6FF82 /* Main.storyboard */; };
 		FAA188C41FA749FE00C6FF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA188C31FA749FE00C6FF82 /* Assets.xcassets */; };
 		FAA188C71FA749FE00C6FF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA188C51FA749FE00C6FF82 /* LaunchScreen.storyboard */; };
 		FAA188D21FA749FE00C6FF82 /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA188D11FA749FE00C6FF82 /* CassiniTests.swift */; };
 		FAA188DD1FA749FE00C6FF82 /* CassiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA188DC1FA749FE00C6FF82 /* CassiniUITests.swift */; };
+		FAA188EC1FA74AC700C6FF82 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA188EB1FA74AC700C6FF82 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA597A9A1FA7595500700A77 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		FA597A9C1FA767EB00700A77 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA6644C31FA87FDE001F5B9D /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		FAA188B91FA749FE00C6FF82 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA188BC1FA749FE00C6FF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA188BE1FA749FE00C6FF82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAA188C11FA749FE00C6FF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA188C31FA749FE00C6FF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA188C61FA749FE00C6FF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA188C81FA749FE00C6FF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		FAA188D81FA749FE00C6FF82 /* CassiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA188DC1FA749FE00C6FF82 /* CassiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniUITests.swift; sourceTree = "<group>"; };
 		FAA188DE1FA749FE00C6FF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA188EB1FA74AC700C6FF82 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,12 @@
 		FAA188BB1FA749FE00C6FF82 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				FAA188BC1FA749FE00C6FF82 /* AppDelegate.swift */,
-				FAA188BE1FA749FE00C6FF82 /* ViewController.swift */,
-				FAA188C01FA749FE00C6FF82 /* Main.storyboard */,
-				FAA188C31FA749FE00C6FF82 /* Assets.xcassets */,
-				FAA188C51FA749FE00C6FF82 /* LaunchScreen.storyboard */,
+				FAA188EB1FA74AC700C6FF82 /* ImageViewController.swift */,
+				FA597A9A1FA7595500700A77 /* DemoURL.swift */,
+				FA597A9C1FA767EB00700A77 /* Main.storyboard */,
+				FA6644C31FA87FDE001F5B9D /* CassiniViewController.swift */,
 				FAA188C81FA749FE00C6FF82 /* Info.plist */,
+				FAA188EA1FA74A1B00C6FF82 /* Supporting files */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -123,6 +127,16 @@
 				FAA188DE1FA749FE00C6FF82 /* Info.plist */,
 			);
 			path = CassiniUITests;
+			sourceTree = "<group>";
+		};
+		FAA188EA1FA74A1B00C6FF82 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA188BC1FA749FE00C6FF82 /* AppDelegate.swift */,
+				FAA188C31FA749FE00C6FF82 /* Assets.xcassets */,
+				FAA188C51FA749FE00C6FF82 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA597A9D1FA767EB00700A77 /* Main.storyboard in Resources */,
 				FAA188C71FA749FE00C6FF82 /* LaunchScreen.storyboard in Resources */,
 				FAA188C41FA749FE00C6FF82 /* Assets.xcassets in Resources */,
-				FAA188C21FA749FE00C6FF82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA188BF1FA749FE00C6FF82 /* ViewController.swift in Sources */,
+				FAA188EC1FA74AC700C6FF82 /* ImageViewController.swift in Sources */,
 				FAA188BD1FA749FE00C6FF82 /* AppDelegate.swift in Sources */,
+				FA597A9B1FA7595500700A77 /* DemoURL.swift in Sources */,
+				FA6644C41FA87FDE001F5B9D /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAA188C01FA749FE00C6FF82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAA188C11FA749FE00C6FF82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAA188C51FA749FE00C6FF82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
